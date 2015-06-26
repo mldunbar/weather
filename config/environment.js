@@ -20,6 +20,8 @@ module.exports = function(environment) {
 
     contentSecurityPolicy: {
       'style-src': "'self' 'unsafe-inline'",
+      'script-src': "'self' 'unsafe-inline' api.forecast.io",
+
     }
 
   };
