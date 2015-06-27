@@ -1,0 +1,9 @@
+<section class="index">
+  <ul>
+    {{#each generalData as |minutely|}}
+    {{log generalData}}
+      <li class="icon-display">{{generalData.icon}}</li>
+      <li class="summary-display">{{generalData.summary}}</li>
+    {{/each}}
+  </ul>
+</section>
