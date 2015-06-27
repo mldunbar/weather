@@ -1,0 +1,8 @@
+<section class="icon-weather">
+  <ul>
+    {{#each data as |daily|}}
+    {{log this.data}}
+      <li class="daily-icon">{{daily.cloudCover}}</li>
+    {{/each}}
+  </ul>
+</section>
