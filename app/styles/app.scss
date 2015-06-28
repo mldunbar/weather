@@ -3,7 +3,7 @@ $gutter: 0em;
 @import 'bower_components/neat/app/assets/stylesheets/neat';
 
 body {
-  background-color: green;
+  background-image: url('http://i.imgur.com/0KFHD.jpg');
 }
 
 ul {
@@ -13,4 +13,16 @@ ul {
 
 section{
   display: inline-block;
+}
+
+.title {
+  text-align: center;
+  color: red;
+}
+
+.index-link {
+  text-align: center;
+  color: red;
+  font-size: 4em;
+  font-weight: bold;
 }

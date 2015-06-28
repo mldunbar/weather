@@ -7,7 +7,8 @@ var Router = Ember.Router.extend({
 
 Router.map(function() {
 
-  this.route('weather', {path:'/weather/:lat,:long'});
+  this.route('index', {path: '/'});
+  this.route('weather', {path:'weather/:lat/:lng'});
 
 });
 

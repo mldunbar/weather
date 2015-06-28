@@ -21,7 +21,7 @@ module.exports = function(environment) {
     contentSecurityPolicy: {
       'style-src': "'self' 'unsafe-inline'",
       'script-src': "'self' 'unsafe-inline' api.forecast.io",
-
+      'img-src' : "'self' i.imgur.com/0KFHD.jpg"
     }
 
   };

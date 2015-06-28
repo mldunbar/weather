@@ -1,6 +1,4 @@
-<h2 id="title">Numbers you need to avoid the sun</h2>
-
-<section class="index">
-  {{link-to 'How safe is it to be a vampire today?' 'weather' this.lat this.long}}
-</section>
+<p class="index-link">
+  {{#link-to 'weather' model.latitude model.longitude}}'How safe is it to be in the sun today?'{{/link-to}}
+</p>
 {{outlet}}
