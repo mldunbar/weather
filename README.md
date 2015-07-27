@@ -1,7 +1,9 @@
 # Weather
 
+This app communicates with the forecast.io API and pinpoints information about sun exposure.
+
+
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
 
 ## Prerequisites
 
